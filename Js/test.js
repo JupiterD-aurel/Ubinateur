@@ -29,7 +29,7 @@ window.onload = () => {
     start.addEventListener("click", function(){
         pageSuivante
 })
-    let imgec = document.getElementById("imgec")
+
 
     imgec.addEventListener("click",() => pageActive++ )
 

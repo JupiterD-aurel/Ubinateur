@@ -26,12 +26,12 @@ imgvi.addEventListener('click', function(){
 
 LMNU1.addEventListener('click', function(){
 	counter++
-	element.innerText = counter
+	element.innerText = counter2
 
 })
 wish1.addEventListener('click', function(){
 	counter++
-	element.innerText = counter
+	element.innerText = counter1
 
 })
 logrs1.addEventListener('click', function(){
@@ -41,12 +41,12 @@ logrs1.addEventListener('click', function(){
 })
 geoloc.addEventListener('click', function(){
 	counter++
-	element.innerText = counter
+	element.innerText = counter3
 
 })
 sysmessuti.addEventListener('click', function(){
 	counter++
-	element.innerText = counter
+	element.innerText = counter3
 
 })
 commartact1.addEventListener('click', function(){
@@ -56,12 +56,12 @@ commartact1.addEventListener('click', function(){
 })
 gestcom1.addEventListener('click', function(){
 	counter++
-	element.innerText = counter
+	element.innerText = counter3
 
 })
 gestres1.addEventListener('click', function(){
 	counter++
-	element.innerText = counter
+	element.innerText = counter2
 
 })
 adsapp1.addEventListener('click', function(){

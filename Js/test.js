@@ -31,7 +31,7 @@ window.onload = () => {
 })
     let imgec = document.getElementById("imgec")
 
-    imgec.addEventListener("click", pageActive++ )
+    imgec.addEventListener("click",() => pageActive++ )
 
 
     var imgvi = document.querySelector("#imgvi")

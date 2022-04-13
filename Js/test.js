@@ -7,7 +7,11 @@ let pageActive = 1
 
 window.onload = () => {
 
-    document.querySelector(".page").style.display = "initial"
+    for (let page of pages) {
+        page.style.display = "none"
+    }
+
+   document.querySelector(".page").style.display = "initial"
 
 
  var boutons = document.querySelectorAll(".next")
@@ -24,18 +28,18 @@ window.onload = () => {
     }
 }
 
-    var start = document.getElementById("start")
+/*    var start = document.getElementById("start")
 
     start.addEventListener("click", function(){
         pageSuivante
-})
+})*/
 
     var imgec = document.querySelector("#imgec")
     imgec.addEventListener("click",() => pageActive++ )
 
 
     var imgvi = document.querySelector("#imgvi")
-    imgvi.addEventListener("click", pageSuivante)
+    imgvi.addEventListener("click", () => pageActive++ )
 
 
 function pageSuivante() {

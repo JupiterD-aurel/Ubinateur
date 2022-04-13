@@ -32,14 +32,16 @@ window.onload = () => {
 
     start.addEventListener("click", function(){
         pageSuivante
-})*/
+})
+
+()  () => pageActive++ */
 
     var imgec = document.querySelector("#imgec")
-    imgec.addEventListener("click",() => pageActive++ )
+    imgec.addEventListener("click", pagenext )
 
 
     var imgvi = document.querySelector("#imgvi")
-    imgvi.addEventListener("click", () => pageActive++ )
+    imgvi.addEventListener("click", pagenext )
 
 
 function pageSuivante() {

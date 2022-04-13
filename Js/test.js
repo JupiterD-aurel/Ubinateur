@@ -30,7 +30,7 @@ window.onload = () => {
         pageSuivante
 })
 
-
+    var imgec = document.querySelector("#imgec")
     imgec.addEventListener("click",() => pageActive++ )
 
 
@@ -63,12 +63,11 @@ function pagePrecedente() {
         page.style.display = "none"
     }
 
-    // On affiche la page suivante
     this.parentElement.previousElementSibling.style.display = "initial"
 
-    // On "désactive" la page active
+
     document.querySelector(".active").classList.remove("active")
 
-    // On incrémente pageActive
+
     pageActive--
 }

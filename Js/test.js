@@ -26,22 +26,16 @@ window.onload = () => {
     for (let bouton of boutons) {
         bouton.addEventListener("click", pagePrecedente)
     }
+
 }
 
-/*    var start = document.getElementById("start")
-
-    start.addEventListener("click", function(){
-        pageSuivante
-})
-
-()  () => pageActive++ */
 
     var imgec = document.querySelector("#imgec")
-    imgec.addEventListener("click", pagenext )
+    imgec.addEventListener("click", pageNext )
 
 
     var imgvi = document.querySelector("#imgvi")
-    imgvi.addEventListener("click", pagenext )
+    imgvi.addEventListener("click", pageNext )
 
 
 function pageSuivante() {
@@ -77,3 +71,4 @@ function pagePrecedente() {
 
     pageActive--
 }
+

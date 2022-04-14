@@ -12,12 +12,18 @@ var imgweb1 = document.querySelector('#imgweb1')
  
 imgec.addEventListener('click', function(){
 	counter++
+
 	element.innerText = counter1
 
 })
 
 imgvi.addEventListener('click', function(){
 	counter++
+
+ if (counter >= 0){
+		counter = 500
+}
+
 	element.innerText = counter
 
 })
@@ -39,7 +45,7 @@ logrs1.addEventListener('click', function(){
 	element.innerText = counter
 
 })
-geoloc.addEventListener('click', function(){
+geoloc1.addEventListener('click', function(){
 	counter++
 	element.innerText = counter3
 

@@ -1,3 +1,5 @@
+let prix = 0;
+
 let counter = 500
 let counter1 = 700
 let counter2 = 1000
@@ -9,31 +11,42 @@ let counter6 = 5000
 var element = document.querySelector('span')
 
 var imgweb1 = document.querySelector('#imgweb1')
- 
-imgec.addEventListener('click', function(){
-	counter++
 
-	element.innerText = counter1
+function AfficherPrix()
+{
+	element.innerText = prix;
+}
+
+function ModifierPrix(ajouter, p)
+{
+	if (ajouter.checked == false)
+		prix -= p;
+	else
+		prix += p;
+}
+
+
+imgec.addEventListener('click', function(){
+	prix += 500;
+
+	AfficherPrix();
 
 })
 
 imgvi.addEventListener('click', function(){
-	counter++
+	prix += 700;
 
- if (counter >= 0){
-		counter = 500
-}
-
-	element.innerText = counter
-
+	AfficherPrix();
 })
 
 /*part2*/
 
 LMNU1.addEventListener('click', function(){
-	counter++
-	element.innerText = counter2
 
+	// Le deuxième paramètre est le prix
+	ModifierPrix(this, 1000)
+	// On affiche le prix
+	AfficherPrix();
 })
 wish1.addEventListener('click', function(){
 	counter++

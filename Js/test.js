@@ -31,27 +31,28 @@ window.onload = () => {
 
 
     var imgec = document.querySelector("#imgec")
-    imgec.addEventListener("click", pageNext )
+    imgec.addEventListener("click", pageSuivante )
 
 
     var imgvi = document.querySelector("#imgvi")
-    imgvi.addEventListener("click", pageNext )
+    imgvi.addEventListener("click", pageSuivante )
 
 
-function pageSuivante() {
-
-
+function pageSuivante()
+{
     for (let page of pages) {
         page.style.display = "none"
     }
 
-    this.parentElement.nextElementSibling.style.display = "initial"
+    
 
+    pages[pageActive].style.display = "initial"
+    pageActive++
 
     document.querySelector(".active").classList.remove("active")
 
 
-    pageActive++
+    
 
 
 }

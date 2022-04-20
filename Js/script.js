@@ -1,16 +1,8 @@
 let prix = 0;
 
-let counter = 500
-let counter1 = 700
-let counter2 = 1000
-let counter3 = 2000
-let counter4 = 2500
-let counter5 = 3500
-let counter6 = 5000
 
 var element = document.querySelector('span')
 
-<<<<<<< Updated upstream
 var imgweb1 = document.querySelector('#imgweb1')
 
 function AfficherPrix()
@@ -27,16 +19,6 @@ function ModifierPrix(ajouter, p)
 }
 
 
-=======
-function calcule() {
-
-	document.span.value  = document.getElementById("#imgec").value + document.getElementById("#imgvi").value
-}
-
-
-//var imgweb1 = document.querySelector('#imgweb1')
- 
->>>>>>> Stashed changes
 imgec.addEventListener('click', function(){
 	prix += 500;
 
@@ -53,15 +35,6 @@ imgvi.addEventListener('click', function(){
 /*part2*/
 
 LMNU1.addEventListener('click', function(){
-<<<<<<< Updated upstream
-=======
-	counter++
-
- if (counter >= 0){
-		counter = 500
-}
-	element.innerText = counter2
->>>>>>> Stashed changes
 
 	// Le deuxième paramètre est le prix
 	ModifierPrix(this, 1000)
@@ -69,228 +42,172 @@ LMNU1.addEventListener('click', function(){
 	AfficherPrix();
 })
 wish1.addEventListener('click', function(){
-	counter++
 
- if (counter >= 0){
-		counter = 500
-}
-	element.innerText = counter1
+	ModifierPrix(this, 500)
 
+	AfficherPrix();
 })
-logrs1.addEventListener('click', function(){
-	counter++
 
- if (counter >= 0){
-		counter = 500
-}
-	element.innerText = counter
+logrs1.addEventListener('click', function(){
+
+	ModifierPrix(this, 800)
+
+	AfficherPrix();
 
 })
 geoloc1.addEventListener('click', function(){
-	counter++
 
- if (counter >= 0){
-		counter = 500
-}
-	element.innerText = counter3
+	ModifierPrix(this, 500)
 
+	AfficherPrix();
 })
 sysmessuti.addEventListener('click', function(){
-	counter++
 
- if (counter >= 0){
-		counter = 500
-}
-	element.innerText = counter2
+	ModifierPrix(this, 2000)
+
+	AfficherPrix();
 
 })
 commartact1.addEventListener('click', function(){
-	counter++
 
- if (counter >= 0){
-		counter = 500
-}
-	element.innerText = counter1
+	ModifierPrix(this, 1000)
+
+	AfficherPrix();
 
 })
 gestcom1.addEventListener('click', function(){
-	counter++
 
- if (counter >= 0){
-		counter = 500
-}
-	element.innerText = counter5
+	ModifierPrix(this, 1500)
+
+	AfficherPrix();
 
 })
 gestres1.addEventListener('click', function(){
-	counter++
 
- if (counter >= 0){
-		counter = 500
-}
-	element.innerText = counter3
+	ModifierPrix(this, 4000)
+
+	AfficherPrix();
 
 })
 adsapp1.addEventListener('click', function(){
-	counter++
 
- if (counter >= 0){
-		counter = 500
-}
-	element.innerText = counter2
+	ModifierPrix(this, 2500)
+
+	AfficherPrix();
 
 })
 intadmod1.addEventListener('click', function(){
-	counter++
 
- if (counter >= 0){
-		counter = 500
-}
-	element.innerText = counter
+	ModifierPrix(this, 3000)
+
+	AfficherPrix();
 
 })
 proutil1.addEventListener('click', function(){
-	counter++
 
- if (counter >= 0){
-		counter = 500
-}
-	element.innerText = counter4
+	ModifierPrix(this, 500)
+
+	AfficherPrix();
 
 })
 solmarket1.addEventListener('click', function(){
-	counter++
 
- if (counter >= 0){
-		counter = 500
-}
-	element.innerText = counter6
+	ModifierPrix(this, 3000)
+
+	AfficherPrix();
 
 })
 
 /*part3*/
 
 inta1.addEventListener('click', function(){
-	counter++
 
- if (counter >= 0){
-		counter = 500
-}
-	element.innerText = counter
+	ModifierPrix(this, 1500)
+
+	AfficherPrix();
 
 })
 pagina1.addEventListener('click', function(){
-	counter++
 
- if (counter >= 0){
-		counter = 500
-}
-	element.innerText = counter
+	ModifierPrix(this, 1800)
+
+	AfficherPrix();
 
 })
 pagine1.addEventListener('click', function(){
-	counter++
 
- if (counter >= 0){
-		counter = 500
-}
-	element.innerText = counter
+	ModifierPrix(this, 600)
+
+	AfficherPrix();
 
 })
 piupagine1.addEventListener('click', function(){
-	counter++
 
- if (counter >= 0){
-		counter = 500
-}
-	element.innerText = counter
+	ModifierPrix(this, 800)
+
+	AfficherPrix();
 
 })
 meda1.addEventListener('click', function(){
-	counter++
 
- if (counter >= 0){
-		counter = 500
-}
-	element.innerText = counter
+	ModifierPrix(this, 1200)
+
+	AfficherPrix();
 
 })
 gestcont1.addEventListener('click', function(){
-	counter++
 
- if (counter >= 0){
-		counter = 500
-}
-	element.innerText = counter
+	ModifierPrix(this, 800)
+
+	AfficherPrix();
 
 })
 
 /*part4*/
 
 integ.addEventListener('click', function(){
-	counter++
+		prix += 500;
 
- if (counter >= 0){
-		counter = 500
-}
-	element.innerText = counter
+	AfficherPrix();
 
 })
 conint.addEventListener('click', function(){
-	counter++
+	prix += 1000;
 
- if (counter >= 0){
-		counter = 500
-}
-	element.innerText = counter
+	AfficherPrix();
 
 })
 
 /*part5*/
 
 idee.addEventListener('click', function(){
-	counter++
+		prix += 1000;
 
- if (counter >= 0){
-		counter = 500
-}
-	element.innerText = counter
+	AfficherPrix();
 
 })
 brouillon.addEventListener('click', function(){
-	counter++
+	prix += 800;
 
- if (counter >= 0){
-		counter = 500
-}
-	element.innerText = counter
+	AfficherPrix();
 
 })
 pagine1.addEventListener('click', function(){
-	counter++
+	prix += 500;
 
- if (counter >= 0){
-		counter = 500
-}
-	element.innerText = counter
+	AfficherPrix();
 
 })
 prodev.addEventListener('click', function(){
-	counter++
+	prix += 200;
 
- if (counter >= 0){
-		counter = 500
-}
-	element.innerText = counter
+	AfficherPrix();
 
 })
 proddev.addEventListener('click', function(){
-	counter++
+	prix += 100;
 
- if (counter >= 0){
-		counter = 500
-}
-	element.innerText = counter
+	AfficherPrix();
 
 })
 

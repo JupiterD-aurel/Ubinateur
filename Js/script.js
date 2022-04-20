@@ -61,7 +61,7 @@ geoloc1.addEventListener('click', function(){
 
 	AfficherPrix();
 })
-sysmessuti.addEventListener('click', function(){
+sysmessuti1.addEventListener('click', function(){
 
 	ModifierPrix(this, 2000)
 
@@ -89,6 +89,22 @@ gestres1.addEventListener('click', function(){
 	AfficherPrix();
 
 })
+
+multiling1.addEventListener('click', function(){
+
+	ModifierPrix(this, 800)
+
+	AfficherPrix();
+
+})
+solpaie1.addEventListener('click', function(){
+
+	ModifierPrix(this, 2500)
+
+	AfficherPrix();
+
+})
+
 adsapp1.addEventListener('click', function(){
 
 	ModifierPrix(this, 2500)
@@ -110,6 +126,7 @@ proutil1.addEventListener('click', function(){
 	AfficherPrix();
 
 })
+
 solmarket1.addEventListener('click', function(){
 
 	ModifierPrix(this, 3000)

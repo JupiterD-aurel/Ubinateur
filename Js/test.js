@@ -38,6 +38,35 @@ window.onload = () => {
     imgvi.addEventListener("click", pageSuivante )
 
 
+
+
+    var integ = document.querySelector("#integ")
+    integ.addEventListener("click", pageSuivante )
+
+    var conint = document.querySelector("#conint")
+    conint.addEventListener("click", pageSuivante )
+
+
+
+
+    var idee = document.querySelector("#idee")
+    idee.addEventListener("click", pageSuivante )
+
+
+    var brouillon = document.querySelector("#brouillon")
+    brouillon.addEventListener("click", pageSuivante )
+
+
+    var prodev = document.querySelector("#prodev")
+    prodev.addEventListener("click", pageSuivante )
+
+
+    var proddev = document.querySelector("#proddev")
+    proddev.addEventListener("click", pageSuivante )
+
+
+
+
 function pageSuivante()
 {
     for (let page of pages) {

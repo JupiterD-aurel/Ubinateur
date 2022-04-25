@@ -11,7 +11,7 @@ window.onload = () => {
         page.style.display = "none"
     }
 
-   document.querySelector(".page").style.display = "initial"
+ document.querySelector(".page").style.display = "initial"
 
 
  var boutons = document.querySelectorAll(".next")
@@ -21,7 +21,7 @@ window.onload = () => {
     }
 
 
-    boutons = document.querySelectorAll(".prev")
+ var boutons = document.querySelectorAll(".prev")
 
     for (let bouton of boutons) {
         bouton.addEventListener("click", pagePrecedente)

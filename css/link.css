@@ -57,6 +57,8 @@ main{
         font-family: 'Montserrat', sans-serif;
         color:  #240e3d;
         background-color: #EEEEEF;
+        box-shadow: 3px 5px 15px #663993;
+        transform:  translateY(-5px);
     }
  
     h2 {
@@ -108,20 +110,22 @@ main{
     }
     
     .bockimg1 {
-        display: flex;
+        margin-left: 20%;
         background-image: linear-gradient(to bottom,#110A19, #663993);
         border-radius: 30px;
-        margin: 50px;
-        padding: 50px;
+        height: 14rem;
+        width: 30rem;
         cursor: pointer;
     }
 
     .bockimg2 {
-        display: flex;
+        flex-wrap: nowrap;
+        padding: 2%;
+        margin-left: 5%;
         background-image: linear-gradient(to bottom,#110A19, #663993);
         border-radius: 30px;
-        margin: 50px;
-        padding: 50px;
+        height: 14rem;
+        width: 40rem;
         cursor: pointer;
     }
     
@@ -206,4 +210,19 @@ main{
         color: gold;
         margin-left: 90%;
 
+}
+
+
+.form-connex{
+    width: 100px;
+    border: none;
+    border-radius: 1px solid rgb(134 255 249 / 65% );
+    background: none;  
+    padding: 10px 5px;
+    margin-bottom: 20px;
+    color: #EEEEEF;
+}
+
+.form-connex::placeholder{
+    color: #663993;
 }

@@ -57,8 +57,36 @@ main{
         font-family: 'Montserrat', sans-serif;
         color:  #240e3d;
         background-color: #EEEEEF;
-        box-shadow: 3px 5px 15px #663993;
-        transform:  translateY(-5px);
+        box-shadow: 3px 5px 5px;
+        transform:  translateY(-10px);
+        transition: .5s;
+    }
+
+    button[type="submit"] {
+        font-family: 'Montserrat', sans-serif;
+        margin: 1% 0% 0 35%;
+        padding: 1%;
+        width: 10%;
+        height: 20%;
+        border-radius: 30px;
+        color:  #EEEEEF;
+        background-color: #240e3d;
+    }
+
+.bockform{
+    display: inline;
+    margin: 0% 20% 0 20%;
+
+}
+    
+    
+    button[type="submit"]:hover {
+        font-family: 'Montserrat', sans-serif;
+        color:  #240e3d;
+        background-color: #EEEEEF;
+        box-shadow: 3px 5px 5px;
+        transform:  translateY(-10px);
+        transition: .5s;
     }
  
     h2 {
@@ -74,11 +102,19 @@ main{
         font-size: 20px;
         color: #EEEEEF;
     }
+
+    h4 {
+        margin-left: 20%;
+        margin-bottom: 5%;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 20px;
+        color: #EEEEEF;
+    }
     
+
     .block1{
-        margin-left: 30%;
         display: flex;
-        padding: 20px;
+        padding: 2px;
     }
 
     .block4{
@@ -139,8 +175,8 @@ main{
     .toggle {
         align-items: center;
         position: relative;
-        margin: 30px;
-        padding: 20px;
+        margin: 13px;
+        padding: 10px;
     }
 
     input[type="checkbox"] {
@@ -214,15 +250,15 @@ main{
 
 
 .form-connex{
-    width: 100px;
+    width: 350px;
     border: none;
     border-radius: 1px solid rgb(134 255 249 / 65% );
     background: none;  
     padding: 10px 5px;
     margin-bottom: 20px;
-    color: #EEEEEF;
+
 }
 
 .form-connex::placeholder{
-    color: #663993;
+    color: #9797c0;
 }
